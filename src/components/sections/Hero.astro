@@ -7,6 +7,7 @@ import Phone from "@/icons/Phone.astro";
 import GitHubIcon from "@/icons/GitHub.astro";
 import LinkedInIcon from "@/icons/LinkedIn.astro";
 import XIcon from "@/icons/X.astro";
+import WorldMapIcon from "@/icons/WorldMap.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -15,6 +16,7 @@ const SOCIAL_ICONS: Record<string, any> = {
     GitHub: GitHubIcon,
     LinkedIn: LinkedInIcon,
     X: XIcon,
+    WorldMap: WorldMapIcon,
 };
 ---
 
@@ -24,7 +26,7 @@ const SOCIAL_ICONS: Record<string, any> = {
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                <!-- Image will go here -->
+                <WorldMapIcon />
                 {city}, {region}
             </span>
             <footer>
@@ -76,5 +78,69 @@ const SOCIAL_ICONS: Record<string, any> = {
 </Section>
 
 <style>
-    
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 6px;
+    }
+
+    span {
+        color: #666;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+        letter-spacing: -0.05rem;
+    }
+
+    footer {
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+
+    footer a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+        background: #eee;
+        border: 1px solid #ddd;
+    }
 </style>
