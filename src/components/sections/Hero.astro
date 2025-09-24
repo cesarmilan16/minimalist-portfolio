@@ -18,6 +18,11 @@ const SOCIAL_ICONS: Record<string, any> = {
     X: XIcon,
     WorldMap: WorldMapIcon,
 };
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -29,7 +34,11 @@ const SOCIAL_ICONS: Record<string, any> = {
                 <WorldMapIcon />
                 {city}, {region}
             </span>
-            <footer>
+
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
                 {
                     email && (
                         <a
@@ -122,6 +131,7 @@ const SOCIAL_ICONS: Record<string, any> = {
 
     footer {
         display: flex;
+        font-size: .60rem;
         gap: 4px;
         margin-top: 8px;
     }
