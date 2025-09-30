@@ -1,0 +1,25 @@
+<button id="theme-toggle">🌓</button>
+
+<script>
+  const html = document.documentElement
+  const btn = document.getElementById("theme-toggle")
+  
+
+  // cargar preferencia guardada o sistema
+  if (
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    html.classList.add("dark")
+  } else {
+    html.classList.remove("dark")
+  }
+
+  if (!btn) throw new Error("No se encontró el botón de tema")
+  
+  btn.addEventListener("click", () => {
+    html.classList.toggle("dark")
+    localStorage.theme = html.classList.contains("dark") ? "dark" : "light"
+  })
+</script>

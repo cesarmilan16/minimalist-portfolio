@@ -12,6 +12,18 @@
 </html>
 
 <style is:global>
+	:root {
+		--bg: #fff;
+		--text: #111;
+		--text-p: #666;
+	}
+
+	.dark {
+		--bg: #111;
+		--text: #ddd;
+		--text-p: #999;
+	}
+
 	html {
 		font-family:
 			Menlo,
@@ -20,7 +32,8 @@
 			"Courier New",
 			Courier,
 			monospace;
-		background-color: #fff;
+		background-color: var(--bg);
+		color: var(--text);
 		letter-spacing: -0.025rem;
 	}
 
@@ -66,8 +79,8 @@
 	}
 
 	p {
-		color: #666;
-		font-size: .9rem;
+		color: var(--text-p);
+		font-size: 0.9rem;
 		line-height: 1.5;
 		margin: 0;
 		text-wrap: pretty;

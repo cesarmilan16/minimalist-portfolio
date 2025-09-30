@@ -10,11 +10,13 @@ import Education from '@/components/sections/Education.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
 
 import { basics } from '@cv';
+import ButtonTheme from '@/components/ButtonTheme.astro';
 const { name, label } = basics;
 ---
 
 <Layout title=`Portafolio de ${name} - ${label}` description="Portafolio personal de desarrollo web y software">
 	<main>
+		<ButtonTheme />
 		<Hero />
 		<About />
 		<Experience />
