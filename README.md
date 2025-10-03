@@ -14,18 +14,6 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 
 </div>
 
-<p></p>
-
-<div align="center">
-
-![Astro Badge](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/cesarmilan16/minimalist-portfolio)
-![GitHub issues](https://img.shields.io/github/issues/cesarmilan16/minimalist-portfolio)
-![GitHub forks](https://img.shields.io/github/forks/cesarmilan16/minimalist-portfolio)
-![GitHub PRs](https://img.shields.io/github/issues-pr/cesarmilan16/minimalist-portfolio)
-
-</div>
-
 <img src="portada.png"></img>
 
 ## 🛠️ Stack
