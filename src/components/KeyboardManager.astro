@@ -50,7 +50,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
-<footer class="no-print keyboard-hint">
+<footer class="no-print">
     Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir el menú de comandos
 </footer>
 
@@ -113,8 +113,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
 
     footer {
-        background: #fdfdfd;
-        border-top: 1px solid #eee;
+        background: var(--footer-bg);
+        border-top: 1px solid var(--footer-border);
+        color: var(--footer-text);
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -131,11 +132,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
 
     kbd {
-        background: #f3f4f6;
-        border: 1px solid #d1d5db;
+        background: var(--kbd-bg);
+        border: 1px solid var(--kbd-border);
         border-radius: 4px;
-        box-shadow: 0 1px 2px rgb(0 0 0 / 0.05);
-        color: #111827;
+        box-shadow: 0 1px 2px var(--kbd-shadow);
+        color: var(--kbd-text);
         display: inline-block;
         font-size: 0.875rem;
         font-weight: 500;
@@ -144,10 +145,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
         vertical-align: middle;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
             "Liberation Mono", "Courier New", monospace;
-    }
-
-    .keyboard-hint {
-        color: #111827;
     }
 
     @media (max-width: 640px) {
