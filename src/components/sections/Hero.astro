@@ -95,18 +95,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         gap: 1rem;
     }
 
-    @media (max-width: 600px) {
-        .container {
-            flex-direction: column;
-            text-align: left;
-            padding: 0 !important;
-        }
-
-        figure {
-            margin-top: 16px;
-        }
-    }
-
     .info {
         display: flex;
         flex-direction: column;
@@ -123,6 +111,26 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         font-weight: 500;
         font-size: 1.1rem;
         text-wrap: balance;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            flex-direction: column;
+            text-align: left;
+            padding: 0 !important;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        figure {
+            margin-top: 16px;
+        }
     }
 
     img {
@@ -143,7 +151,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
     footer {
         display: flex;
-        font-size: .60rem;
+        font-size: 0.6rem;
         gap: 4px;
         margin-top: 8px;
     }
