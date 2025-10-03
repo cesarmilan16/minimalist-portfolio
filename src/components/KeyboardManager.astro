@@ -50,7 +50,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
-<footer class="no-print">
+<footer class="no-print keyboard-hint">
     Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir el menú de comandos
 </footer>
 
@@ -144,5 +144,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
         vertical-align: middle;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
             "Liberation Mono", "Courier New", monospace;
+    }
+
+    .keyboard-hint {
+        color: #111827;
     }
 </style>

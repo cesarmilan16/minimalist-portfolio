@@ -87,15 +87,24 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 </Section>
 
 <style>
-    .dark {
-        --text: #ddd;
-    }
     .container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            flex-direction: column;
+            text-align: left;
+            padding: 0 !important;
+        }
+
+        figure {
+            margin-top: 16px;
+        }
     }
 
     .info {
@@ -110,7 +119,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     }
 
     h2 {
-        color: #444;
+        color: var(--text-h2);
         font-weight: 500;
         font-size: 1.1rem;
         text-wrap: balance;
@@ -124,7 +133,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     }
 
     span {
-        color: #666;
+        color: var(--text-span);
         display: flex;
         align-items: center;
         gap: 0.25rem;
@@ -140,11 +149,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     }
 
     footer a {
-        color: #777;
+        color: var(--text-p);
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #eee;
+        border: 1px solid var(--border);
         padding: 4px;
         width: 32px;
         height: 32px;
@@ -153,7 +162,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     }
 
     footer a:hover {
-        background: #eee;
+        background: var(--hover-icons);
         border: 1px solid #ddd;
     }
 </style>

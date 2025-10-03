@@ -1,8 +1,21 @@
-<button id="theme-toggle">🌓</button>
+<button id="theme-toggle" class="no-print">
+  <svg id="sun" class="icon sun" viewBox="0 0 24 24" aria-hidden="true"
+    ><path
+      d="M12 4a1 1 0 0 1 1-1h0a1 1 0 1 1-2 0h0a1 1 0 0 1 1 1Zm0 17a1 1 0 1 1-2 0h0a1 1 0 0 1 2 0Zm9-9a1 1 0 1 1 0-2h0a1 1 0 0 1 0 2ZM4 12a1 1 0 1 1 0-2h0a1 1 0 0 1 0 2Zm13.657-6.657a1 1 0 1 1 1.414 1.414h0a1 1 0 1 1-1.414-1.414ZM4.929 18.364a1 1 0 1 1 1.414-1.414h0a1 1 0 1 1-1.414 1.414Zm14.142 0a1 1 0 1 1-1.414-1.414h0a1 1 0 1 1 1.414 1.414ZM6.343 5.343a1 1 0 1 1-1.414 1.414h0A1 1 0 1 1 6.343 5.343ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"
+    ></path></svg
+  >
+  <svg id="moon" class="icon moon" viewBox="0 0 24 24" aria-hidden="true"
+    ><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 1 0 9.79 9.79Z"></path></svg
+  >
+</button>
 
 <script>
-  const html = document.documentElement
-  const btn = document.getElementById("theme-toggle")
+  const html = document.documentElement;
+  const btn = document.getElementById("theme-toggle");
+  const sun = document.getElementById("sun");
+  const moon = document.getElementById("moon");
+
+  console.log({ btn, sun, moon });
   
 
   // cargar preferencia guardada o sistema
@@ -11,15 +24,76 @@
     (!("theme" in localStorage) &&
       window.matchMedia("(prefers-color-scheme: dark)").matches)
   ) {
-    html.classList.add("dark")
+    html.classList.add("dark");
+    sun?.classList.remove("sun");
+    moon?.classList.add("moon");
   } else {
-    html.classList.remove("dark")
+    html.classList.remove("dark");
+    moon?.classList.remove("moon");
+    sun?.classList.add("sun");
   }
 
-  if (!btn) throw new Error("No se encontró el botón de tema")
-  
+  if (!btn) throw new Error("No se encontró el botón de tema");
+
   btn.addEventListener("click", () => {
-    html.classList.toggle("dark")
-    localStorage.theme = html.classList.contains("dark") ? "dark" : "light"
-  })
+    html.classList.toggle("dark");
+    localStorage.theme = html.classList.contains("dark") ? "dark" : "light";
+    sun?.classList.toggle("sun");
+    moon?.classList.toggle("moon");
+  });
 </script>
+
+<style>
+  button {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 8px;
+    border: 1px solid var(--btn-border);
+    background-color: var(--btn-bg);
+    color: var(--btn-icon);
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.08s ease;
+  }
+
+  button:hover {
+    background-color: var(--btn-hover-bg);
+    border-color: var(--btn-hover-border);
+    color: var(--text); /* icono un poco más claro en hover */
+  }
+
+  button:active {
+    transform: translateY(1px);
+  }
+
+  button:focus-visible {
+    outline: var(--focus);
+    outline-offset: 2px;
+  }
+
+  /* Iconos: cambia cuál se muestra según el tema */
+  .icon {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+
+  .sun {
+    display: none;
+  }
+
+  .moon {
+    display: none;
+  }
+
+</style>
