@@ -1,7 +1,16 @@
 ---
+type WorkItem = {
+  name: string;
+  startDate: string;
+  endDate?: string;
+  position: string;
+  summary: string;
+  highlights?: string[];
+};
 import Section from "@/components/Section.astro";
 
-import { work } from "@cv";
+const { cv } = Astro.props
+const work: WorkItem[] = Array.isArray(cv?.work) ? cv.work : [];
 ---
 
 <Section title="Experience">

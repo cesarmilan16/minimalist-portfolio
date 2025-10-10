@@ -1,13 +1,23 @@
 ---
 import Section from "@/components/Section.astro";
 
-import { projects } from "@cv";
+const { cv } = Astro.props;
+const projectsRaw = cv?.projects;
+const projects = Array.isArray(projectsRaw) ? projectsRaw : [];
+
+const safeProjects = projects.map((p) => ({
+  url: p?.url ?? "",
+  description: p?.description ?? "",
+  highlights: Array.isArray(p?.highlights) ? p.highlights : [],
+  name: p?.name ?? "",
+  isActive: Boolean(p?.isActive),
+}));
 ---
 
 <Section title="Projects">
     <ul>
         {
-            projects.map(({ url, description, highlights, name, isActive }) => {
+            safeProjects.map(({ url, description, highlights, name, isActive }) => {
                 return (
                     <li>
                         <article>
@@ -26,7 +36,7 @@ import { projects } from "@cv";
                                 <p>{description}</p>
                             </header>
                             <footer>
-                                {highlights.map((highlight) => {
+                                {highlights.map((highlight: string) => {
                                     return <span>{highlight}</span>;
                                 })}
                             </footer>

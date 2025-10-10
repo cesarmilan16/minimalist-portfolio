@@ -12,7 +12,12 @@ import React from "@/icons/react.astro";
 import Css from "@/icons/css.astro";
 import JavaScript from "@/icons/javascript.astro";
 
-import { skills } from "@cv";
+interface Skill {
+    name: string;
+}
+
+const { cv } = Astro.props;
+const skills: Skill[] = Array.isArray(cv?.skills) ? cv?.skills : [];
 
 const SKILLS_ICONS: Record<string, any> = {
     HTML: Html,
@@ -36,8 +41,8 @@ const SKILLS_ICONS: Record<string, any> = {
                 const Icon = SKILLS_ICONS[name] || null;
                 return (
                     <li>
-                        {Icon && <Icon class="skill-icon" />}
-                        {name}
+                        {Icon && <Icon />}
+                        <span>{name}</span>
                     </li>
                 );
             })
@@ -53,6 +58,9 @@ const SKILLS_ICONS: Record<string, any> = {
     }
 
     li {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
         border-radius: 6px;
         background: #eee;
         color: black;
@@ -62,14 +70,10 @@ const SKILLS_ICONS: Record<string, any> = {
     }
 
     li:hover {
-        background: #ddd;
+        background: #ccc;
     }
 
-    :global(.skill-icon) {
-        width: 1rem;
-        height: 1rem;
-        fill: currentColor;
-        vertical-align: middle;
-        margin-right: 4px;
+    span {
+        text-align: center;
     }
 </style>
