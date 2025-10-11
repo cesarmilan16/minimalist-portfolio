@@ -13,6 +13,7 @@ import cv from "@cv";
 import { basics } from "@cv";
 
 import ButtonTheme from "@/components/ButtonTheme.astro";
+import ButtonLanguage from "@/components/ButtonLanguage.astro";
 
 const { name, label } = basics;
 ---
@@ -23,6 +24,7 @@ const { name, label } = basics;
 >
 	<main>
 		<ButtonTheme />
+		<ButtonLanguage />
 		<Hero cv={cv} />
 		<About cv={cv} />
 		<Experience cv={cv} />
