@@ -1,7 +1,7 @@
 ---
 import Section from "@/components/Section.astro";
 
-const { cv } = Astro.props;
+const { cv, title } = Astro.props;
 const projectsRaw = cv?.projects;
 const projects = Array.isArray(projectsRaw) ? projectsRaw : [];
 
@@ -14,7 +14,7 @@ const safeProjects = projects.map((p) => ({
 }));
 ---
 
-<Section title="Projects">
+<Section title={title}>
     <ul>
         {
             safeProjects.map(({ url, description, highlights, name, isActive }) => {

@@ -1,11 +1,12 @@
 ---
 import Section from '@/components/Section.astro'
 
-const { cv } = Astro.props
+const { cv, title } = Astro.props
 const summary = cv?.basics?.summary ?? ''
+
 ---
 
-<Section title="About">
+<Section title={title}>
     <p>
         {summary}
     </p>

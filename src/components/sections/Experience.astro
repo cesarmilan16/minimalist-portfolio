@@ -9,11 +9,11 @@ type WorkItem = {
 };
 import Section from "@/components/Section.astro";
 
-const { cv } = Astro.props
+const { cv, title } = Astro.props
 const work: WorkItem[] = Array.isArray(cv?.work) ? cv.work : [];
 ---
 
-<Section title="Experience">
+<Section title={title}>
     <ul>
         {
             work.map(

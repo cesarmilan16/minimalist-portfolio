@@ -16,7 +16,7 @@ interface Skill {
     name: string;
 }
 
-const { cv } = Astro.props;
+const { cv, title } = Astro.props;
 const skills: Skill[] = Array.isArray(cv?.skills) ? cv?.skills : [];
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -34,7 +34,7 @@ const SKILLS_ICONS: Record<string, any> = {
 };
 ---
 
-<Section title="Skills">
+<Section title={title}>
     <ul>
         {
             skills.map(({ name }) => {
