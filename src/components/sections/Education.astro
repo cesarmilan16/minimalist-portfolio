@@ -1,9 +1,100 @@
 ---
-import Section from '@/components/Section.astro'
+type EducationItem = {
+    institution: string;
+    url: string;
+    area: string;
+    studyType: string;
+    startDate: string;
+    endDate?: string;
+};
+import Section from "@/components/Section.astro";
 
-const { title } = Astro.props;
+const { cv, title } = Astro.props;
+const education: EducationItem[] = Array.isArray(cv?.education) ? cv?.education : [];
 ---
 
-<Section title={title} >
-    <p>TODO</p>
+<Section title={title}>
+    <ul>
+        {
+            education.map(
+                ({
+                    institution,
+                    url,
+                    area,
+                    studyType,
+                    startDate,
+                    endDate,
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYear = 
+                        endDate != null
+                            ? new Date(endDate).getFullYear()
+                            : 'Actual'
+                    const years = `${startYear} - ${endYear}`
+
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <a href={url}>
+                                        <h3>{institution}</h3>
+                                    </a>
+
+                                    <time>{years}</time>
+                                </header>
+                                <footer>
+                                    <p>{studyType} - {area}</p>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    li {
+        display: grid;
+        grid-template-columns: auto 1fr; /* columna del icono + contenido */
+        gap: 16px;
+    }
+
+    li::before {
+        content: "";
+        width: 4px;
+        height: 24px;
+        background-color: var(--text-p);
+        border-radius: 2px;
+        margin: auto 0;
+    }
+
+    article h3 {
+        font-weight: 700;
+        color: var(--text);
+    }
+
+    article h3:hover {
+        text-decoration: underline;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    time {
+        font-size: 0.85rem;
+        color: var(--text-p);
+    }
+
+</style>
