@@ -1,184 +1,154 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
+    "name": "César Fernández Milán",
+    "label": "Junior Full Stack Developer eager to work and keep learning",
     "image": "https://avatars.githubusercontent.com/u/136681874?v=4",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "email": "cesarmilan16@gmail.com",
+    "phone": "+34 697 720 407",
+    "url": "https://cesarmilan.dev",
+    "summary": "Recently graduated in Web Application Development (DAW). Since finishing my studies, I’ve been creating my own projects to keep learning and improving as a developer. I’ve worked with technologies such as React, Next.js, Spring Boot, Strapi, and WordPress, building projects like a 3D figure e-commerce, a real estate website, and a task management web app. I enjoy building web solutions that are functional, well-designed, and user-friendly. I’m currently looking for my first professional opportunity to continue growing, learning from a great team, and contributing with enthusiasm and commitment.",
     "location": {
-      "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
+      "address": "Calle Arrozal, 43",
+      "postalCode": "41130",
+      "city": "Seville",
       "countryCode": "ES",
       "region": "Spain"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "cesarmilan16",
+        "url": "https://linkedin.com/in/cesarmilan16"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "cesarmilan16",
+        "url": "https://github.com/cesarmilan16"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Web programming communicator",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Most watched development streamer in Spanish on Twitch. +1 million followers across all my social networks. Recognised by Google, Microsoft and GitHub for my impact on the development community.",
+      "name": "Administración de Fincas Justicia",
+      "position": "Web Developer",
+      "startDate": "2025-03-01",
+      "endDate": "2025-06-30",
+      "summary": "In this project, I used WordPress as a CMS to develop a professional website. I was responsible for template customization, plugin configuration (Elementor and Easy Real Estate), Google Maps integration, and full site translation into Spanish using Loco Translate. I also optimized performance and SEO structure, ensuring a smooth experience on both mobile and desktop. Finally, I modified PHP functions and JS scripts to customize the theme and enhance website functionality.",
       "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "I led a technical convergence between different products and migrated from a monolithic architecture to a more flexible and optimised one. I fostered best practices and performance culture improvements, as well as rapid delivery of value to users.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "I developed a geolocated news platform and an API to consume the information. Scaled services to support the load of over hundreds of thousands of requests per day. Cut delivery times and deployments to production by half. Collaborated with Mozilla and Telefónica to develop the first FirefoxOS TV app.",
-      "highlights": [
-        "Started the company"
+        "Template and function customization in PHP",
+        "Google Maps integration and full translation to Spanish",
+        "SEO and performance optimization"
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "education": [
+    {
+      "institution": "FP Euroformac",
+      "url": "https://fpeuroformac.com/",
+      "area": "Web Application Development",
+      "studyType": "Higher National Diploma (Vocational Training)",
+      "startDate": "2023-09-15",
+      "endDate": "2025-06-30"
+    },
+    {
+      "institution": "Deusto Formación",
+      "url": "https://www.deustoformacion.com/",
+      "area": "Full Stack Development",
+      "studyType": "Advanced Course",
+      "startDate": "2025-09-15",
+      "endDate": null
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend"
+        "Web Development", "Frontend"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "Diseño Responsive"
+        "Web Development", "Frontend", "Responsive Design"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
+        "Web Development", "Frontend", "Backend", "Full Stack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "Backend", "JavaScript Superset"
+        "Web Development", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Advanced",
       "keywords": [
-        "Web development", "Backend", "JavaScript", "Servidor"
+        "Web Development", "Backend", "JavaScript", "Server"
       ]
     },
     {
       "name": "MySQL",
       "level": "Advanced",
       "keywords": [
-        "Bases de Datos", "SQL", "Database", "Backend"
+        "Databases", "SQL", "Data Storage", "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Advanced",
       "keywords": [
-        "Version control", "Colaboración", "Source code"
+        "Version Control", "Collaboration", "Source Code"
       ]
     },
     {
       "name": "GitHub",
       "level": "Advanced",
       "keywords": [
-        "Version control", "Collaboration", "Source code", "Git"
+        "Version Control", "Collaboration", "Source Code", "Git"
       ]
     },
     {
-      "name": "Next.js",
+      "name": "Next",
       "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
       ]
     },
     {
       "name": "React",
       "level": "Advanced",
       "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
+        "Web Development", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Backend", "Java", "REST API"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Backend", "AI", "REST API"
       ]
     }
   ],
@@ -189,82 +159,45 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Intermediate"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "description": "Web application for task management built with Java, Spring Boot, Thymeleaf, and MySQL.",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "MVC architecture with JPA/Hibernate",
+        "User authentication system",
+        "Docker deployment"
       ],
-      "url": "https://mars.codes"
+      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
     },
     {
-      "name": "AdventJS",
+      "name": "3D Figures E-commerce",
       "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "description": "Online store for 3D-printed figures and custom orders using Next.js and Strapi as a headless CMS.",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "Next.js + Strapi + AWS S3 integration",
+        "Cart, wishlist, and dynamic CMS",
+        "Responsive UI with Chakra UI"
       ],
-      "url": "https://advent.js/dev"
+      "url": "https://3dhispalis.netlify.app/",
+      "github": "https://github.com/cesarmilan16/ecommerce3d-next"
     },
     {
-      "name": "Codember",
+      "name": "Azores Islands Guide",
       "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
+      "description": "Informative website about the Azores Islands featuring routes, landmarks, and local experiences.",
       "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
+        "HTML + CSS + JS",
+        "Clean and fast design",
+        "Weather API integration"
       ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
-      "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
-      "highlights": [
-        "100% free",
-        "+500 community solutions"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://guia-azores-san-miguel.netlify.app/",
+      "github": "https://github.com/cesarmilan16/guia-azores"
     }
   ]
 }

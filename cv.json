@@ -3,10 +3,10 @@
     "name": "César Fernández Milán",
     "label": "Full Stack Developer junior con muchas ganas de trabajar y seguir aprendiendo",
     "image": "https://avatars.githubusercontent.com/u/136681874?v=4",
-    "email": "cesarmilan16@gmial.com",
-    "phone": "+34 697720407",
+    "email": "cesarmilan16@gmail.com",
+    "phone": "+34 697 720 407",
     "url": "https://cesarmilan.dev",
-    "summary": "Recientemente titulado en Desarrollo de Aplicaciones Web (DAW). Tengo experiencia práctica desarrollando proyectos con tecnologías modernas como React, Next.js, Strapi y WordPress. He creado un e-commerce de figuras 3D y una web inmobiliaria como parte de mis estudios y proyectos personales. Vivo en Sevilla, España, y busco mi primera oportunidad profesional como Desarrollador Web para seguir creciendo y aportar valor en el sector.",
+    "summary": "Recientemente terminé mis estudios en Desarrollo de Aplicaciones Web (DAW) y desde entonces he estado creando proyectos propios para seguir aprendiendo y mejorar como desarrollador. He trabajado con tecnologías como React, Next.js, Spring Boot, Strapi y WordPress, desarrollando un e-commerce de figuras 3D, una web inmobiliaria y una aplicación de gestión de tareas. Me gusta construir soluciones web que sean útiles, bien diseñadas y fáciles de usar. Busco mi primera oportunidad profesional para seguir creciendo, aprender de un buen equipo y aportar todo lo que sé con entusiasmo y compromiso.",
     "location": {
       "address": "Calle Arrozal, 43",
       "postalCode": "41130",
@@ -29,33 +29,11 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Administración de Fincas Justicia",
+      "position": "Desarrollador web",
+      "startDate": "2025-03-01",
+      "endDate": "2025-06-30",
+      "summary": "Durante este proyecto utilicé WordPress como CMS para desarrollar un sitio web profesional. Me encargué de la personalización de la plantilla, configuración de plugins como Elementor y Easy Real Estate, integración con Google Maps y traducción completa del sitio al español con Loco Translate. También optimicé el rendimiento y la estructura SEO, asegurando una experiencia fluida en móviles y escritorio. Por último, modifiqué funciones PHP y scripts JS para la personalización de tema y funcionalidades de la web.",
       "highlights": [
         "Started the company"
       ]
@@ -72,18 +50,24 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+  "education": [
+    {
+    "institution": "FP Euroformac",
+    "url": "https://fpeuroformac.com/",
+    "area": "Desarrollo de Aplicaciones Web",
+    "studyType": "Grado Superior",
+    "startDate": "2023-09-15",
+    "endDate": "2025-06-30"
+    },
+    {
+      "institution": "Deusto Formación",
+    "url": "https://www.deustoformacion.com/",
+    "area": "Full Stack Developer",
+    "studyType": "Curso Superior",
+    "startDate": "2025-09-15",
+    "endDate": null
+    }
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -95,13 +79,6 @@
     "date": "2021-11-07",
     "issuer": "Company",
     "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
   }],
   "skills": [
     {
@@ -180,6 +157,20 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
+    },
+    {
+      "name": "SpringBoot",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Java", "API REST"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "IA", "API REST"
+      ]
     }
   ],
   "languages": [
@@ -189,82 +180,45 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "intermediate"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Aplicación web para gestión de tareas desarrollada con Java, Spring Boot, Thymeleaf y MySQL.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Arquitectura MVC con JPA/Hibernate",
+        "Autenticación de usuarios",
+        "Despliegue con Docker"
       ],
-      "url": "https://mars.codes"
+      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
     },
     {
-      "name": "AdventJS",
+      "name": "E-commerce Figuras 3D",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Tienda online de figuras 3D y encargos personalizados con Next.js y Strapi como backend headless.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Next.js + Strapi + AWS S3",
+        "Carrito, wishlist y CMS dinámico",
+        "UI responsive con Chakra UI"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://3dhispalis.netlify.app/",
+      "github": "https://github.com/cesarmilan16/ecommerce3d-next"
     },
     {
-      "name": "Codember",
+      "name": "Guía de las Islas Azores",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Web informativa sobre las Islas Azores con rutas, lugares destacados y experiencias locales.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "HTML + CSS + JS",
+        "Diseño limpio y rápido",
+        "Integración con API del tiempo"
       ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://guia-azores-san-miguel.netlify.app/",
+      "github": "https://github.com/cesarmilan16/guia-azores"
     }
   ]
 }
