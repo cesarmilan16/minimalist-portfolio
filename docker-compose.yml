@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  astro-cv:
+    # El contexto (context: .) es la carpeta actual, donde está este archivo.
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    container_name: astro_cv_solo
+    
+    # Mapeamos el puerto 80 del contenedor (NGINX) al puerto 4203 de tu host.
+    ports:
+      - "4203:80" 
+      
+    restart: always
