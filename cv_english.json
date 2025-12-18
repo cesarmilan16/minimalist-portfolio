@@ -64,91 +64,127 @@
       "name": "HTML",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend"
+        "Web Development",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "Responsive Design"
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "Backend", "Full Stack"
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Full Stack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "Backend", "JavaScript Superset"
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Backend", "JavaScript", "Server"
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
       ]
     },
     {
       "name": "MySQL",
       "level": "Advanced",
       "keywords": [
-        "Databases", "SQL", "Data Storage", "Backend"
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Advanced",
       "keywords": [
-        "Version Control", "Collaboration", "Source Code"
+        "Version Control",
+        "Collaboration",
+        "Source Code"
       ]
     },
     {
       "name": "GitHub",
       "level": "Advanced",
       "keywords": [
-        "Version Control", "Collaboration", "Source Code", "Git"
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
       ]
     },
     {
       "name": "Next",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "React",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "JavaScript Library", "UI"
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     },
     {
       "name": "Spring Boot",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Backend", "Java", "REST API"
+        "Web Development",
+        "Backend",
+        "Java",
+        "REST API"
       ]
     },
     {
       "name": "Python",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Backend", "AI", "REST API"
+        "Web Development",
+        "Backend",
+        "AI",
+        "REST API"
       ]
     }
   ],
@@ -188,16 +224,17 @@
       "github": "https://github.com/cesarmilan16/ecommerce3d-next"
     },
     {
-      "name": "Azores Islands Guide",
+      "name": "Full-Stack Blog (Angular & Spring Boot)",
       "isActive": true,
-      "description": "Informative website about the Azores Islands featuring routes, landmarks, and local experiences.",
+      "description": "Modern blog platform with full CRUD functionality (Create, Read, Update, Delete) and microservices architecture.",
       "highlights": [
-        "HTML + CSS + JS",
-        "Clean and fast design",
-        "Weather API integration"
+        "Spring Boot API (Java) & Angular",
+        "Docker Compose Orchestration",
+        "Nginx Proxy and Cloudflare Tunnel",
+        "MySQL Database"
       ],
-      "url": "https://guia-azores-san-miguel.netlify.app/",
-      "github": "https://github.com/cesarmilan16/guia-azores"
+      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/blog-angular-spring"
     }
   ]
 }

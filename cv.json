@@ -39,137 +39,179 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
   "education": [
     {
-    "institution": "FP Euroformac",
-    "url": "https://fpeuroformac.com/",
-    "area": "Desarrollo de Aplicaciones Web",
-    "studyType": "Grado Superior",
-    "startDate": "2023-09-15",
-    "endDate": "2025-06-30"
+      "institution": "FP Euroformac",
+      "url": "https://fpeuroformac.com/",
+      "area": "Desarrollo de Aplicaciones Web",
+      "studyType": "Grado Superior",
+      "startDate": "2023-09-15",
+      "endDate": "2025-06-30"
     },
     {
       "institution": "Deusto Formación",
-    "url": "https://www.deustoformacion.com/",
-    "area": "Full Stack Developer",
-    "studyType": "Curso Superior",
-    "startDate": "2025-09-15",
-    "endDate": null
+      "url": "https://www.deustoformacion.com/",
+      "area": "Full Stack Developer",
+      "studyType": "Curso Superior",
+      "startDate": "2025-09-15",
+      "endDate": null
     }
   ],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Master",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Avanzado",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "Next",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
       ]
     },
     {
       "name": "React",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     },
     {
       "name": "SpringBoot",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "Java", "API REST"
+        "Desarrollo Web",
+        "Backend",
+        "Java",
+        "API REST"
       ]
     },
     {
       "name": "Python",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Backend", "IA", "API REST"
+        "Desarrollo Web",
+        "Backend",
+        "IA",
+        "API REST"
       ]
     }
   ],
@@ -209,16 +251,17 @@
       "github": "https://github.com/cesarmilan16/ecommerce3d-next"
     },
     {
-      "name": "Guía de las Islas Azores",
+      "name": "Blog Full-Stack (Angular & Spring Boot)",
       "isActive": true,
-      "description": "Web informativa sobre las Islas Azores con rutas, lugares destacados y experiencias locales.",
+      "description": "Plataforma de blog moderna con CRUD completo (Crear, Leer, Actualizar, Borrar) y arquitectura de microservicios.",
       "highlights": [
-        "HTML + CSS + JS",
-        "Diseño limpio y rápido",
-        "Integración con API del tiempo"
+        "Spring Boot API (Java) & Angular",
+        "Orquestación Docker Compose",
+        "Proxy Nginx y Cloudflare Tunnel",
+        "Base de Datos MySQL"
       ],
-      "url": "https://guia-azores-san-miguel.netlify.app/",
-      "github": "https://github.com/cesarmilan16/guia-azores"
+      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/blog-angular-spring"
     }
   ]
 }
