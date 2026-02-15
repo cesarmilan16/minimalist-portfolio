@@ -6,7 +6,7 @@
     "email": "cesarmilan16@gmail.com",
     "phone": "+34 697 720 407",
     "url": "https://cesarmilan.dev",
-    "summary": "Recientemente terminé mis estudios en Desarrollo de Aplicaciones Web (DAW) y desde entonces he estado creando proyectos propios para seguir aprendiendo y mejorar como desarrollador. He trabajado con tecnologías como React, Next.js, Spring Boot, Strapi y WordPress, desarrollando un e-commerce de figuras 3D, una web inmobiliaria y una aplicación de gestión de tareas. Me gusta construir soluciones web que sean útiles, bien diseñadas y fáciles de usar. Busco mi primera oportunidad profesional para seguir creciendo, aprender de un buen equipo y aportar todo lo que sé con entusiasmo y compromiso.",
+    "summary": "Desarrollador Web Full Stack Junior titulado en Desarrollo de Aplicaciones Web (DAW), con experiencia en el desarrollo de aplicaciones utilizando Java, Spring Boot, Node.js, Angular, React y Next.js. He desarrollado proyectos end-to-end como un e-commerce, una plataforma inmobiliaria y una aplicación de gestión de tareas, trabajando con arquitecturas cliente-servidor, APIs RESTful, bases de datos relacionales y despliegues con Docker. Enfocado en escribir código limpio y mantenible, aplicando buenas prácticas y control de versiones con Git. Busco mi primera oportunidad profesional donde aportar valor técnico desde el primer día y seguir creciendo dentro de un equipo de desarrollo.",
     "location": {
       "address": "Calle Arrozal, 43",
       "postalCode": "41130",
@@ -67,7 +67,7 @@
       "area": "Full Stack Developer",
       "studyType": "Curso Superior",
       "startDate": "2025-09-15",
-      "endDate": null
+      "endDate": "2026-02-01"
     }
   ],
   "awards": [
@@ -263,7 +263,7 @@
     {
       "name": "Blog Full-Stack (Angular & Spring Boot)",
       "isActive": true,
-      "description": "Plataforma de blog moderna con CRUD completo (Crear, Leer, Actualizar, Borrar) y arquitectura de microservicios.",
+      "description": "Plataforma de blog moderna con CRUD completo usando Angular, Spring Boot y MySQL, containerizada con Docker Compose.",
       "highlights": [
         "Spring Boot API (Java) & Angular",
         "Orquestación Docker Compose",
