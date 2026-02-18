@@ -12,10 +12,17 @@ const safeProjects = projects.map((p) => ({
   name: p?.name ?? "",
   isActive: Boolean(p?.isActive),
 }));
+
+const remainderClass =
+  safeProjects.length % 3 === 1
+    ? "last-row-one"
+    : safeProjects.length % 3 === 2
+      ? "last-row-two"
+      : "";
 ---
 
 <Section title={title}>
-    <ul>
+    <ul class={remainderClass}>
         {
             safeProjects.map(({ url, description, highlights, name, isActive }) => {
                 return (
@@ -53,6 +60,20 @@ const safeProjects = projects.map((p) => ({
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 1rem;
+    }
+
+    @media (min-width: 900px) {
+        ul {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        ul.last-row-one li:last-child {
+            grid-column: 2;
+        }
+
+        ul.last-row-two li:last-child {
+            grid-column: 3;
+        }
     }
 
     article {

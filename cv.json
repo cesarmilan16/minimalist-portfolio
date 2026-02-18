@@ -248,6 +248,18 @@
       "url": "https://trainlog.cesarmilandev.com/"
     },
     {
+      "name": "Blog Full-Stack (Angular & Spring Boot)",
+      "isActive": true,
+      "description": "Plataforma de blog moderna con CRUD completo usando Angular, Spring Boot y MySQL, containerizada con Docker Compose.",
+      "highlights": [
+        "Spring Boot API (Java) & Angular",
+        "Orquestación Docker Compose",
+        "Base de Datos MySQL"
+      ],
+      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/blog-angular-spring"
+    },
+    {
       "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
       "description": "Aplicación web para gestión de tareas desarrollada con Java, Spring Boot, Thymeleaf y MySQL.",
@@ -270,18 +282,6 @@
       ],
       "url": "https://3dhispalis.netlify.app/",
       "github": "https://github.com/cesarmilan16/ecommerce3d-next"
-    },
-    {
-      "name": "Blog Full-Stack (Angular & Spring Boot)",
-      "isActive": true,
-      "description": "Plataforma de blog moderna con CRUD completo usando Angular, Spring Boot y MySQL, containerizada con Docker Compose.",
-      "highlights": [
-        "Spring Boot API (Java) & Angular",
-        "Orquestación Docker Compose",
-        "Base de Datos MySQL"
-      ],
-      "url": "https://blog-helloworld.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/blog-angular-spring"
     }
   ]
 }
