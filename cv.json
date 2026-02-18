@@ -237,6 +237,17 @@
   ],
   "projects": [
     {
+      "name": "TrainLog",
+      "isActive": true,
+      "description": "Aplicación web para la gestión de entrenamientos entre manager y clientes, desarrollada con Angular 21 en frontend y Node.js + Express en backend, con persistencia en SQLite.",
+      "highlights": [
+        "Angular 21 + Express (Node.js)",
+        "Autenticación JWT y control de roles",
+        "Despliegue con Docker Compose y Nginx"
+      ],
+      "url": "https://trainlog.cesarmilandev.com/"
+    },
+    {
       "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
       "description": "Aplicación web para gestión de tareas desarrollada con Java, Spring Boot, Thymeleaf y MySQL.",
