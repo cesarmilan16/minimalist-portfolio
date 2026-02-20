@@ -210,17 +210,6 @@
   ],
   "projects": [
     {
-      "name": "TrainLog",
-      "isActive": true,
-      "description": "Web application for workout management between managers and clients, built with Angular 21 on the frontend and Node.js + Express on the backend, using SQLite for data persistence.",
-      "highlights": [
-        "Angular 21 + Express (Node.js)",
-        "JWT authentication and role-based access",
-        "Docker Compose + Nginx deployment"
-      ],
-      "url": "https://trainlog.cesarmilandev.com/"
-    },
-    {
       "name": "Full-Stack Blog (Angular & Spring Boot)",
       "isActive": true,
       "description": "Modern blog platform with full CRUD operations (Create, Read, Update, Delete) implemented with containerized monolithic architecture.",
