@@ -244,6 +244,17 @@
       ],
       "url": "https://3dhispalis.netlify.app/",
       "github": "https://github.com/cesarmilan16/ecommerce3d-next"
+    },
+    {
+      "name": "TrainLog",
+      "isActive": true,
+      "description": "Web application for workout management between managers and clients, built with Angular 21 on the frontend and Node.js + Express on the backend, using SQLite for data persistence.",
+      "highlights": [
+        "Angular 21 + Express (Node.js)",
+        "JWT authentication and role-based access",
+        "Docker Compose + Nginx deployment"
+      ],
+      "url": "https://trainlog.cesarmilandev.com/"
     }
   ]
 }
