@@ -1,61 +1,60 @@
-<div align="center">
-<h2>
-    <em>CV</em> minimalista maquetado para web y pdf
-</h2>
-<p>
-Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
-</p>
+# Minimalist Portfolio
 
+Portfolio personal y CV web de César Fernández Milán, construido con Astro a partir de un esquema JSON editable.
 
-<p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
+![Vista previa del portfolio](./docs/screenshots/portfolio-home.png)
 
-</p>
+## Qué incluye
 
-</div>
+- Presentación personal, experiencia, formación y stack técnico.
+- Contenido editable desde `cv.json` y `cv_english.json`.
+- Rutas en español e inglés.
+- Diseño pensado para consultar en web y exportar/imprimir como CV.
 
-<img src="portada.png"></img>
+## Stack
 
-## 🛠️ Stack
+- [Astro](https://astro.build/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Ninja Keys](https://github.com/ssleptsov/ninja-keys)
 
-- [**Astro**](https://astro.build/) - El framework web de la nueva época.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
-- [**Ninja Keys**](https://github.com/ssleptsov/ninja-keys) - Menu desplegable con atajos de teclado hecho en puro Javascript.
+## Estructura principal
 
+- `cv.json`: contenido principal en español.
+- `cv_english.json`: contenido para la versión en inglés.
+- `src/pages/es/index.astro`: entrada de la versión en español.
+- `src/pages/en/index.astro`: entrada de la versión en inglés.
 
-## 🚀 Empezar
+## Desarrollo local
 
-### 1. Usa este [repo](https://github.com/midudev/minimalist-portfolio-json) como _template_ de un proyecto de Astro
-
-
-- Yo uso [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
+Instala dependencias y arranca el proyecto:
 
 ```bash
-# Activa pnpm en MacOS, WSL & Linux:
-corepack enable
-corepack prepare pnpm@latest --activate
-
-# Inicializa el proyecto
-pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+npm install
+npm run dev
 ```
 
-### 2. Añade tu contenido:
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
-### 3. Lanza el servidor de desarrollo:
+La aplicación estará disponible en `http://localhost:4321`.
+
+## Scripts
+
+| Comando | Descripción |
+| :-- | :-- |
+| `npm run dev` | Inicia el entorno de desarrollo. |
+| `npm run build` | Genera la versión de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la build de producción. |
+
+## Personalización
+
+Si quieres adaptar este portfolio:
+
+1. Edita `cv.json` con tu información personal, experiencia y proyectos.
+2. Sustituye la imagen de perfil definida en `basics.image`.
+3. Ajusta textos o secciones en `src/components/sections/`.
+
+## Build de producción
 
 ```bash
-# Disfruta del resultado
-pnpm dev
+npm run build
 ```
 
-
-1. Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ver el resultado 🚀
-
-
-## 🧞 Comandos
-
-|     | Comando          | Acción                                        |
-| :-- | :--------------- | :-------------------------------------------- |
-| ⚙️  | `dev` o `start` | Lanza un servidor de desarrollo local en  `localhost:4321`.  |
-| ⚙️  | `build`          | Comprueba posibles errores y hace un empaquetado de producción en `./dist/`.      |
-| ⚙️  | `preview`        | Vista previa en local `localhost:4321` |
+Si la compilación termina sin errores, el sitio queda listo en `dist/`.
