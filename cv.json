@@ -282,6 +282,18 @@
         "Despliegue con Docker Compose y Nginx"
       ],
       "url": "https://trainlog.cesarmilandev.com/"
+    },
+    {
+      "name": "TrainIA",
+      "isActive": true,
+      "description": "Aplicación full-stack para generar planes de entrenamiento con IA, consultar el historial y regenerar rutinas desde una interfaz moderna construida con Angular y Node.js.",
+      "highlights": [
+        "Angular 21 + Express + SQLite",
+        "OpenAI API y generación asíncrona",
+        "Tests con Vitest y Supertest"
+      ],
+      "url": "https://trainingia.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/TrainIA"
     }
   ]
 }
