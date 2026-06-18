@@ -57,4 +57,4 @@ Si quieres adaptar este portfolio:
 npm run build
 ```
 
-Si la compilación termina sin errores, el sitio queda listo en `dist/`.
+Si la compilación termina sin errores, el sitio queda listo en `dist/`
