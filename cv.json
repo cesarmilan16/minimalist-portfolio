@@ -294,6 +294,17 @@
       ],
       "url": "https://trainingia.cesarmilandev.com/",
       "github": "https://github.com/cesarmilan16/TrainIA"
+    },
+    {
+      "name": "AgentJobs",
+      "isActive": true,
+      "description": "Agente autónomo que recopila ofertas de empleo de LinkedIn, Indeed, InfoJobs y Tecnoempleo, las filtra y puntúa con IA (gpt-4o-mini) según un perfil, y envía las mejores por Telegram dos veces al día.",
+      "highlights": [
+        "Scraping con Playwright + python-jobspy",
+        "Scoring con OpenAI gpt-4o-mini y filtros duros",
+        "Notificaciones Telegram · Docker Compose + cron"
+      ],
+      "github": "https://github.com/cesarmilan16/AgentJobs"
     }
   ]
 }

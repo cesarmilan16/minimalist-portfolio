@@ -267,6 +267,17 @@
       ],
       "url": "https://trainingia.cesarmilandev.com/",
       "github": "https://github.com/cesarmilan16/TrainIA"
+    },
+    {
+      "name": "AgentJobs",
+      "isActive": true,
+      "description": "Autonomous agent that collects job listings from LinkedIn, Indeed, InfoJobs, and Tecnoempleo, filters and scores them with AI (gpt-4o-mini) based on a developer profile, and delivers the top matches via Telegram twice a day.",
+      "highlights": [
+        "Web scraping with Playwright + python-jobspy",
+        "AI scoring via OpenAI gpt-4o-mini with hard filters",
+        "Telegram notifications · Docker Compose + cron"
+      ],
+      "github": "https://github.com/cesarmilan16/AgentJobs"
     }
   ]
 }
