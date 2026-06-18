@@ -304,6 +304,7 @@
         "Scoring con OpenAI gpt-4o-mini y filtros duros",
         "Notificaciones Telegram · Docker Compose + cron"
       ],
+      "": "https://github.com/cesarmilan16/AgentJobs",
       "github": "https://github.com/cesarmilan16/AgentJobs"
     }
   ]
