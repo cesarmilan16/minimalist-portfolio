@@ -35,20 +35,9 @@
       "endDate": "2025-06-30",
       "summary": "Durante este proyecto utilicé WordPress como CMS para desarrollar un sitio web profesional. Me encargué de la personalización de la plantilla, configuración de plugins como Elementor y Easy Real Estate, integración con Google Maps y traducción completa del sitio al español con Loco Translate. También optimicé el rendimiento y la estructura SEO, asegurando una experiencia fluida en móviles y escritorio. Por último, modifiqué funciones PHP y scripts JS para la personalización de tema y funcionalidades de la web.",
       "highlights": [
-        "Started the company"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Personalización de plantilla y funciones en PHP",
+        "Integración de Google Maps y traducción completa al español",
+        "Optimización de SEO y rendimiento"
       ]
     }
   ],
@@ -68,22 +57,6 @@
       "studyType": "Curso Superior",
       "startDate": "2025-09-15",
       "endDate": "2026-02-01"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
     }
   ],
   "skills": [
@@ -304,7 +277,6 @@
         "Scoring con OpenAI gpt-4o-mini y filtros duros",
         "Notificaciones Telegram · Docker Compose + cron"
       ],
-      "": "https://github.com/cesarmilan16/AgentJobs",
       "github": "https://github.com/cesarmilan16/AgentJobs"
     }
   ]
