@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "César Fernández Milán",
-    "label": "Full Stack Developer junior con muchas ganas de trabajar y seguir aprendiendo",
+    "label": "Full Stack Developer · React/Next · Angular · Node · Java/Spring Boot · Python | IA en producción",
     "image": "https://avatars.githubusercontent.com/u/136681874?v=4",
     "email": "cesarmilan16@gmail.com",
     "phone": "+34 697 720 407",
     "url": "https://cesarmilan.dev",
-    "summary": "Desarrollador Web Full Stack Junior titulado en Desarrollo de Aplicaciones Web (DAW), con experiencia en el desarrollo de aplicaciones utilizando Java, Spring Boot, Node.js, Angular, React y Next.js. He desarrollado proyectos end-to-end como un e-commerce, una plataforma de blogs y una aplicación de gestión de tareas, trabajando con arquitecturas cliente-servidor, APIs RESTful, bases de datos SQL y despliegues con Docker. Enfocado en escribir código limpio y mantenible, aplicando buenas prácticas y control de versiones con Git. Busco mi primera oportunidad profesional donde aportar valor técnico desde el primer día y seguir creciendo dentro de un equipo de desarrollo.",
+    "summary": "Desarrollador full stack con base sólida en React/Next.js, Angular, Node.js, Java/Spring Boot y Python. Antes de dedicarme al desarrollo pasé más de seis años en telecomunicaciones diseñando redes FTTH, una etapa que me dejó una forma de trabajar metódica y orientada a sistemas reales. Hoy construyo aplicaciones completas, de la base de datos a la interfaz, y trabajo integrando modelos de IA en aplicaciones en producción. He desarrollado proyectos end-to-end (e-commerce, plataforma de blogs, generación de entrenamientos con IA, un agente autónomo de scraping de empleo) aplicando arquitecturas cliente-servidor, APIs REST, bases de datos SQL, Docker y control de versiones con Git. Me interesa especialmente el backend y la arquitectura. Quiero seguir creciendo en un equipo donde pueda aportar mi experiencia técnica y asumir más responsabilidad.",
     "location": {
       "address": "Calle Arrozal, 43",
       "postalCode": "41130",
@@ -210,28 +210,27 @@
   ],
   "projects": [
     {
-      "name": "Blog Full-Stack (Angular & Spring Boot)",
+      "name": "TrainIA",
       "isActive": true,
-      "description": "Plataforma de blog moderna con CRUD completo usando Angular, Spring Boot y MySQL, containerizada con Docker Compose.",
+      "description": "Aplicación full-stack para generar planes de entrenamiento con IA, consultar el historial y regenerar rutinas desde una interfaz moderna construida con Angular y Node.js.",
       "highlights": [
-        "Spring Boot API (Java) & Angular",
-        "Orquestación Docker Compose",
-        "Base de Datos MySQL"
+        "Angular 21 + Express + SQLite",
+        "OpenAI API y generación asíncrona",
+        "Tests con Vitest y Supertest"
       ],
-      "url": "https://blog-helloworld.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/blog-angular-spring"
+      "url": "https://trainingia.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/TrainIA"
     },
     {
-      "name": "To-Do List — Spring Boot MVC",
+      "name": "AgentJobs",
       "isActive": true,
-      "description": "Aplicación web para gestión de tareas desarrollada con Java, Spring Boot, Thymeleaf y MySQL.",
+      "description": "Agente autónomo que recopila ofertas de empleo de LinkedIn, Indeed, InfoJobs y Tecnoempleo, las filtra y puntúa con IA (gpt-4o-mini) según un perfil, y envía las mejores por Telegram dos veces al día.",
       "highlights": [
-        "Arquitectura MVC con JPA/Hibernate",
-        "Autenticación de usuarios",
-        "Despliegue con Docker"
+        "Scraping con Playwright + python-jobspy",
+        "Scoring con OpenAI gpt-4o-mini y filtros duros",
+        "Notificaciones Telegram · Docker Compose + cron"
       ],
-      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
+      "github": "https://github.com/cesarmilan16/AgentJobs"
     },
     {
       "name": "E-commerce Figuras 3D",
@@ -257,27 +256,28 @@
       "url": "https://trainlog.cesarmilandev.com/"
     },
     {
-      "name": "TrainIA",
+      "name": "Blog Full-Stack (Angular & Spring Boot)",
       "isActive": true,
-      "description": "Aplicación full-stack para generar planes de entrenamiento con IA, consultar el historial y regenerar rutinas desde una interfaz moderna construida con Angular y Node.js.",
+      "description": "Plataforma de blog moderna con CRUD completo usando Angular, Spring Boot y MySQL, containerizada con Docker Compose.",
       "highlights": [
-        "Angular 21 + Express + SQLite",
-        "OpenAI API y generación asíncrona",
-        "Tests con Vitest y Supertest"
+        "Spring Boot API (Java) & Angular",
+        "Orquestación Docker Compose",
+        "Base de Datos MySQL"
       ],
-      "url": "https://trainingia.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/TrainIA"
+      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/blog-angular-spring"
     },
     {
-      "name": "AgentJobs",
+      "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
-      "description": "Agente autónomo que recopila ofertas de empleo de LinkedIn, Indeed, InfoJobs y Tecnoempleo, las filtra y puntúa con IA (gpt-4o-mini) según un perfil, y envía las mejores por Telegram dos veces al día.",
+      "description": "Aplicación web para gestión de tareas desarrollada con Java, Spring Boot, Thymeleaf y MySQL.",
       "highlights": [
-        "Scraping con Playwright + python-jobspy",
-        "Scoring con OpenAI gpt-4o-mini y filtros duros",
-        "Notificaciones Telegram · Docker Compose + cron"
+        "Arquitectura MVC con JPA/Hibernate",
+        "Autenticación de usuarios",
+        "Despliegue con Docker"
       ],
-      "github": "https://github.com/cesarmilan16/AgentJobs"
+      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "César Fernández Milán",
-    "label": "Junior Full Stack Developer eager to work and keep learning",
+    "label": "Full Stack Developer · React/Next · Angular · Node · Java/Spring Boot · Python | AI in production",
     "image": "https://avatars.githubusercontent.com/u/136681874?v=4",
     "email": "cesarmilan16@gmail.com",
     "phone": "+34 697 720 407",
     "url": "https://cesarmilan.dev",
-    "summary": "Junior Full Stack Web Developer with a degree in Web Application Development (DAW), experienced in building applications using Java, Spring Boot, Node.js, Angular, React, and Next.js. I have developed end-to-end projects including an e-commerce platform, a blog website, and a task management application, working with client-server architectures, RESTful APIs, SQL databases, and Docker-based deployments. I focus on writing clean, maintainable code, following best practices and using Git for version control. I am seeking my first professional opportunity where I can contribute technical value from day one while continuing to grow within a development team.",
+    "summary": "Full stack developer with a solid foundation in React/Next.js, Angular, Node.js, Java/Spring Boot, and Python. Before moving into software development, I spent over six years in telecommunications designing FTTH networks, an experience that gave me a methodical, systems-oriented way of working. Today I build complete applications, from the database to the interface, and work integrating AI models into production applications. I have developed end-to-end projects (e-commerce, a blog platform, AI-based workout generation, an autonomous job-scraping agent) applying client-server architectures, REST APIs, SQL databases, Docker, and version control with Git. I'm especially interested in backend and architecture. I want to keep growing in a team where I can contribute my technical experience and take on more responsibility.",
     "location": {
       "address": "Calle Arrozal, 43",
       "postalCode": "41130",
@@ -210,28 +210,28 @@
   ],
   "projects": [
     {
-      "name": "Full-Stack Blog (Angular & Spring Boot)",
+      "name": "TrainIA",
       "isActive": true,
-      "description": "Modern blog platform with full CRUD operations (Create, Read, Update, Delete) implemented with containerized monolithic architecture.",
+      "description": "Full-stack application for generating AI-based training plans, browsing training history, and regenerating routines from a modern Angular and Node.js interface.",
       "highlights": [
-        "Spring Boot API (Java) & Angular",
-        "Docker Compose Orchestration",
-        "MySQL Database"
+        "Angular 21 + Express + SQLite",
+        "OpenAI API with async generation flow",
+        "Vitest and Supertest test coverage"
       ],
-      "url": "https://blog-helloworld.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/blog-angular-spring"
+      "url": "https://trainingia.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/TrainIA"
     },
     {
-      "name": "To-Do List — Spring Boot MVC",
+      "name": "AgentJobs",
       "isActive": true,
-      "description": "Web application for task management built with Java, Spring Boot, Thymeleaf, and MySQL.",
+      "description": "Autonomous agent that collects job listings from LinkedIn, Indeed, InfoJobs, and Tecnoempleo, filters and scores them with AI (gpt-4o-mini) based on a developer profile, and delivers the top matches via Telegram twice a day.",
       "highlights": [
-        "MVC architecture with JPA/Hibernate",
-        "User authentication system",
-        "Docker deployment"
+        "Web scraping with Playwright + python-jobspy",
+        "AI scoring via OpenAI gpt-4o-mini with hard filters",
+        "Telegram notifications · Docker Compose + cron"
       ],
-      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
+      "url": "https://github.com/cesarmilan16/AgentJobs",
+      "github": "https://github.com/cesarmilan16/AgentJobs"
     },
     {
       "name": "3D Figures E-commerce",
@@ -257,28 +257,28 @@
       "url": "https://trainlog.cesarmilandev.com/"
     },
     {
-      "name": "TrainIA",
+      "name": "Full-Stack Blog (Angular & Spring Boot)",
       "isActive": true,
-      "description": "Full-stack application for generating AI-based training plans, browsing training history, and regenerating routines from a modern Angular and Node.js interface.",
+      "description": "Modern blog platform with full CRUD operations (Create, Read, Update, Delete) implemented with containerized monolithic architecture.",
       "highlights": [
-        "Angular 21 + Express + SQLite",
-        "OpenAI API with async generation flow",
-        "Vitest and Supertest test coverage"
+        "Spring Boot API (Java) & Angular",
+        "Docker Compose Orchestration",
+        "MySQL Database"
       ],
-      "url": "https://trainingia.cesarmilandev.com/",
-      "github": "https://github.com/cesarmilan16/TrainIA"
+      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/blog-angular-spring"
     },
     {
-      "name": "AgentJobs",
+      "name": "To-Do List — Spring Boot MVC",
       "isActive": true,
-      "description": "Autonomous agent that collects job listings from LinkedIn, Indeed, InfoJobs, and Tecnoempleo, filters and scores them with AI (gpt-4o-mini) based on a developer profile, and delivers the top matches via Telegram twice a day.",
+      "description": "Web application for task management built with Java, Spring Boot, Thymeleaf, and MySQL.",
       "highlights": [
-        "Web scraping with Playwright + python-jobspy",
-        "AI scoring via OpenAI gpt-4o-mini with hard filters",
-        "Telegram notifications · Docker Compose + cron"
+        "MVC architecture with JPA/Hibernate",
+        "User authentication system",
+        "Docker deployment"
       ],
-      "url": "https://github.com/cesarmilan16/AgentJobs",
-      "github": "https://github.com/cesarmilan16/AgentJobs"
+      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
+      "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
     }
   ]
 }
