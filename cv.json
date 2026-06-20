@@ -29,6 +29,29 @@
   },
   "work": [
     {
+      "name": "VersaSky",
+      "position": "Desarrollador Full Stack · Freelance",
+      "startDate": "2026-05-01",
+      "summary": "Colaboración como desarrollador full stack de proyectos web end-to-end con tecnologías como React, Next.js y Node.js, trabajando con diversos lenguajes según las necesidades de cada proyecto. Integración de APIs REST y fuentes de datos externas, junto con la incorporación de modelos de IA para el análisis y procesamiento inteligente de la información (extracción de insights, clasificación, generación de resúmenes, etc.). Creación de automatizaciones y flujos que conectan distintos servicios, apoyándome también en herramientas de IA como aceleradores en el propio proceso de desarrollo.",
+      "highlights": [
+        "Proyectos web end-to-end con React, Next.js y Node.js",
+        "Integración de APIs REST e IA para análisis de información",
+        "Automatizaciones y flujos entre servicios"
+      ]
+    },
+    {
+      "name": "VersaSky",
+      "position": "Desarrollador Full Stack · Prácticas",
+      "startDate": "2026-03-01",
+      "endDate": "2026-05-01",
+      "summary": "Participé en el desarrollo de aplicaciones web full stack utilizando React, Next.js y Node.js, aplicando herramientas de IA para acelerar el desarrollo, la generación de componentes y la automatización de tareas. Trabajé en funcionalidades frontend y backend, integración de APIs, gestión de bases de datos y despliegue de aplicaciones en entornos modernos de desarrollo. También colaboré en la optimización de interfaces, estructura del código y flujos de trabajo orientados a productividad y mantenibilidad.",
+      "highlights": [
+        "Desarrollo full stack con React, Next.js y Node.js",
+        "Herramientas de IA para acelerar desarrollo y generación de componentes",
+        "Integración de APIs, bases de datos y despliegue"
+      ]
+    },
+    {
       "name": "Administración de Fincas Justicia",
       "position": "Desarrollador web",
       "startDate": "2025-03-01",

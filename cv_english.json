@@ -29,6 +29,29 @@
   },
   "work": [
     {
+      "name": "VersaSky",
+      "position": "Full Stack Developer · Freelance",
+      "startDate": "2026-05-01",
+      "summary": "Collaboration as a full stack developer on end-to-end web projects using technologies such as React, Next.js, and Node.js, working with different languages depending on each project's needs. Integration of REST APIs and external data sources, along with the incorporation of AI models for intelligent analysis and processing of information (insight extraction, classification, summary generation, etc.). Creation of automations and workflows that connect different services, also leveraging AI tools as accelerators within the development process itself.",
+      "highlights": [
+        "End-to-end web projects with React, Next.js, and Node.js",
+        "REST API and AI integration for information analysis",
+        "Automations and workflows across services"
+      ]
+    },
+    {
+      "name": "VersaSky",
+      "position": "Full Stack Developer · Internship",
+      "startDate": "2026-03-01",
+      "endDate": "2026-05-01",
+      "summary": "I took part in the development of full stack web applications using React, Next.js, and Node.js, applying AI tools to speed up development, component generation, and task automation. I worked on frontend and backend features, API integration, database management, and application deployment in modern development environments. I also contributed to UI optimization, code structure, and workflows focused on productivity and maintainability.",
+      "highlights": [
+        "Full stack development with React, Next.js, and Node.js",
+        "AI tools to accelerate development and component generation",
+        "API integration, databases, and deployment"
+      ]
+    },
+    {
       "name": "Administración de Fincas Justicia",
       "position": "Web Developer",
       "startDate": "2025-03-01",
