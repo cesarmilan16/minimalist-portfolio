@@ -9,8 +9,25 @@ type WorkItem = {
 };
 import Section from "@/components/Section.astro";
 
-const { cv, title } = Astro.props;
+const { cv, title, lang = "es" } = Astro.props;
 const work: WorkItem[] = Array.isArray(cv?.work) ? cv.work : [];
+
+const locale = lang === "en" ? "en-US" : "es-ES";
+const ongoingLabel = lang === "en" ? "Present" : "Actual";
+
+// Formatea "YYYY-MM-DD" como "mes año" sin depender de la zona horaria.
+function formatMonthYear(dateStr?: string) {
+    if (!dateStr) return ongoingLabel;
+    const [year, month] = dateStr.split("-").map(Number);
+    if (!year || !month) return ongoingLabel;
+    const date = new Date(Date.UTC(year, month - 1, 1));
+    const label = date.toLocaleDateString(locale, {
+        month: "short",
+        year: "numeric",
+        timeZone: "UTC",
+    });
+    return label.charAt(0).toUpperCase() + label.slice(1);
+}
 ---
 
 <Section title={title}>
@@ -25,12 +42,7 @@ const work: WorkItem[] = Array.isArray(cv?.work) ? cv.work : [];
                     summary,
                     highlights,
                 }) => {
-                    const startYear = new Date(startDate).getFullYear();
-                    const endYear =
-                        endDate != null
-                            ? new Date(endDate).getFullYear()
-                            : "Actual";
-                    const years = `${startYear} - ${endYear}`;
+                    const years = `${formatMonthYear(startDate)} - ${formatMonthYear(endDate)}`;
 
                     return (
                         <li>
