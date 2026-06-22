@@ -219,6 +219,74 @@
         "IA",
         "API REST"
       ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "POO",
+        "Spring Boot",
+        "API REST"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "Node.js",
+        "API REST",
+        "Servidor"
+      ]
+    },
+    {
+      "name": "API REST",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "Arquitectura",
+        "HTTP",
+        "Integraciones"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": [
+        "DevOps",
+        "Contenedores",
+        "Docker Compose",
+        "Despliegue"
+      ]
+    },
+    {
+      "name": "Integración de IA",
+      "level": "Avanzado",
+      "keywords": [
+        "IA",
+        "OpenAI",
+        "LLMs",
+        "Automatización"
+      ]
     }
   ],
   "languages": [
