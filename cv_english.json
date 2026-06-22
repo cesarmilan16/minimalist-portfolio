@@ -219,6 +219,74 @@
         "AI",
         "REST API"
       ]
+    },
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "OOP",
+        "Spring Boot",
+        "REST API"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "Node.js",
+        "REST API",
+        "Server"
+      ]
+    },
+    {
+      "name": "REST API",
+      "level": "Advanced",
+      "keywords": [
+        "Backend",
+        "Architecture",
+        "HTTP",
+        "Integrations"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "level": "Advanced",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Advanced",
+      "keywords": [
+        "DevOps",
+        "Containers",
+        "Docker Compose",
+        "Deployment"
+      ]
+    },
+    {
+      "name": "AI Integration",
+      "level": "Advanced",
+      "keywords": [
+        "AI",
+        "OpenAI",
+        "LLMs",
+        "Automation"
+      ]
     }
   ],
   "languages": [
