@@ -42,7 +42,7 @@ function formatMonthYear(dateStr?: string) {
                     summary,
                     highlights,
                 }) => {
-                    const years = `${formatMonthYear(startDate)} - ${formatMonthYear(endDate)}`;
+                    const range = `${formatMonthYear(startDate)} - ${formatMonthYear(endDate)}`;
 
                     return (
                         <li>
@@ -53,10 +53,18 @@ function formatMonthYear(dateStr?: string) {
                                         <h4>{position}</h4>
                                     </div>
 
-                                    <time>{years}</time>
+                                    <time>{range}</time>
                                 </header>
                                 <footer>
-                                    <p>{summary}</p>
+                                    {highlights && highlights.length > 0 ? (
+                                        <ul class="highlights">
+                                            {highlights.map((point) => (
+                                                <li>{point}</li>
+                                            ))}
+                                        </ul>
+                                    ) : (
+                                        <p>{summary}</p>
+                                    )}
                                 </footer>
                             </article>
                         </li>
@@ -109,5 +117,33 @@ function formatMonthYear(dateStr?: string) {
     time {
         font-size: 0.85rem;
         color: var(--text-p);
+        white-space: nowrap;
+    }
+
+    footer p {
+        color: var(--text-p);
+    }
+
+    .highlights {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .highlights li {
+        display: list-item !important;
+        list-style: disc;
+        margin-left: 1.1em;
+        padding-left: 4px;
+        color: var(--text-p);
+        line-height: 1.4;
+    }
+
+    .highlights li::before {
+        content: none !important;
+        width: 0;
+        height: 0;
+        margin: 0;
+        background-color: transparent;
     }
 </style>

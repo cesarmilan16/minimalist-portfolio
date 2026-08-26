@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "César Fernández Milán",
-    "label": "Full Stack Developer · React/Next · Angular · Node · Java/Spring Boot · Python | IA en producción",
+    "label": "Full Stack Developer · React · Next.js · Node.js · Express · TypeScript",
     "image": "https://avatars.githubusercontent.com/u/136681874?v=4",
     "email": "cesarmilan16@gmail.com",
     "phone": "+34 697 720 407",
     "url": "https://cesarmilan.dev",
-    "summary": "Desarrollador full stack con base sólida en React/Next.js, Angular, Node.js, Java/Spring Boot y Python. Antes de dedicarme al desarrollo pasé más de seis años en telecomunicaciones diseñando redes FTTH, una etapa que me dejó una forma de trabajar metódica y orientada a sistemas reales. Hoy construyo aplicaciones completas, de la base de datos a la interfaz, y trabajo integrando modelos de IA en aplicaciones en producción. He desarrollado proyectos end-to-end (e-commerce, plataforma de blogs, generación de entrenamientos con IA, un agente autónomo de scraping de empleo) aplicando arquitecturas cliente-servidor, APIs REST, bases de datos SQL, Docker y control de versiones con Git. Me interesa especialmente el backend y la arquitectura. Quiero seguir creciendo en un equipo donde pueda aportar mi experiencia técnica y asumir más responsabilidad.",
+    "summary": "Desarrollador Full Stack con año y medio de experiencia: React y Next.js en frontend, Node.js con Express en backend. He entregado proyectos en el sector inmobiliario, e-commerce y asesoría deportiva, con automatizaciones e integración de LLMs y despliegue en cloud. Inglés intermedio-alto. Busco seguir creciendo dentro del ecosistema JS/TS con React y Node.",
     "location": {
       "address": "Calle Arrozal, 43",
       "postalCode": "41130",
@@ -29,39 +29,35 @@
   },
   "work": [
     {
-      "name": "VersaSky",
-      "position": "Desarrollador Full Stack · Freelance",
-      "startDate": "2026-05-01",
-      "summary": "Colaboración como desarrollador full stack de proyectos web end-to-end con tecnologías como React, Next.js y Node.js, trabajando con diversos lenguajes según las necesidades de cada proyecto. Integración de APIs REST y fuentes de datos externas, junto con la incorporación de modelos de IA para el análisis y procesamiento inteligente de la información (extracción de insights, clasificación, generación de resúmenes, etc.). Creación de automatizaciones y flujos que conectan distintos servicios, apoyándome también en herramientas de IA como aceleradores en el propio proceso de desarrollo.",
+      "name": "Full Stack Developer Freelance",
+      "position": "Full Stack Developer",
+      "startDate": "2025-06-01",
+      "summary": "Desarrollo de proyectos end-to-end con React, Next.js, Node.js, Supabase y n8n. VersaSky: apps web end-to-end, APIs REST, agregación de datos externos, modelos de IA y automatizaciones. 3D Hispalis: e-commerce con Next.js, Strapi y AWS S3, catálogo por categorías, carrito, área de usuario y pagos con Stripe. Lifters Training: motor de recomendación deportiva con Next.js, FastAPI y OpenAI, combinando LLM y validación determinista.",
       "highlights": [
-        "Proyectos web end-to-end con React, Next.js y Node.js",
-        "Integración de APIs REST e IA para análisis de información",
-        "Automatizaciones y flujos entre servicios"
-      ]
-    },
-    {
-      "name": "VersaSky",
-      "position": "Desarrollador Full Stack · Prácticas",
-      "startDate": "2026-03-01",
-      "endDate": "2026-05-01",
-      "summary": "Participé en el desarrollo de aplicaciones web full stack utilizando React, Next.js y Node.js, aplicando herramientas de IA para acelerar el desarrollo, la generación de componentes y la automatización de tareas. Trabajé en funcionalidades frontend y backend, integración de APIs, gestión de bases de datos y despliegue de aplicaciones en entornos modernos de desarrollo. También colaboré en la optimización de interfaces, estructura del código y flujos de trabajo orientados a productividad y mantenibilidad.",
-      "highlights": [
-        "Desarrollo full stack con React, Next.js y Node.js",
-        "Herramientas de IA para acelerar desarrollo y generación de componentes",
-        "Integración de APIs, bases de datos y despliegue"
+        "VersaSky: apps web end-to-end, APIs REST, agregación de datos externos, IA y automatizaciones",
+        "3D Hispalis: e-commerce con Next.js, Strapi, AWS S3 y pagos con Stripe",
+        "Lifters Training: recomendación deportiva con Next.js, FastAPI, OpenAI y validación determinista"
       ]
     },
     {
       "name": "Administración de Fincas Justicia",
-      "position": "Desarrollador web",
+      "position": "Full Stack Developer",
       "startDate": "2025-03-01",
       "endDate": "2025-06-30",
-      "summary": "Durante este proyecto utilicé WordPress como CMS para desarrollar un sitio web profesional. Me encargué de la personalización de la plantilla, configuración de plugins como Elementor y Easy Real Estate, integración con Google Maps y traducción completa del sitio al español con Loco Translate. También optimicé el rendimiento y la estructura SEO, asegurando una experiencia fluida en móviles y escritorio. Por último, modifiqué funciones PHP y scripts JS para la personalización de tema y funcionalidades de la web.",
+      "summary": "Desarrollo de una app web inmobiliaria con React y Express. Implementación de una API REST para la gestión de datos y operaciones del sistema, así como la gestión y visualización de propiedades y sus características.",
       "highlights": [
-        "Personalización de plantilla y funciones en PHP",
-        "Integración de Google Maps y traducción completa al español",
-        "Optimización de SEO y rendimiento"
+        "App web inmobiliaria con React y Express",
+        "API REST para datos y operaciones del sistema",
+        "Gestión y visualización de propiedades y sus características"
       ]
+    },
+    {
+      "name": "Grupo ICA, Aserto, Comfica y Siter 2000",
+      "position": "Ingeniería FTTH · Fibra óptica",
+      "startDate": "2016-01-01",
+      "endDate": "2024-12-31",
+      "summary": "Ingeniería y despliegue de redes de fibra óptica FTTH.",
+      "highlights": []
     }
   ],
   "education": [
@@ -80,6 +76,35 @@
       "studyType": "Curso Superior",
       "startDate": "2025-09-15",
       "endDate": "2026-02-01"
+    },
+    {
+      "institution": "IES Zaidín-Vergeles",
+      "url": "#",
+      "area": "IA aplicada · LLMs · RAG · agentes",
+      "studyType": "Curso de Especialización en IA y Big Data",
+      "startDate": "2026-09-15",
+      "endDate": "2027-06-30"
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Associate AI Engineer for Developers",
+      "date": "",
+      "issuer": "DataCamp",
+      "url": ""
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Foundations Associate",
+      "date": "",
+      "issuer": "Oracle",
+      "url": ""
+    },
+    {
+      "name": "Claude Code 101",
+      "date": "",
+      "issuer": "Anthropic",
+      "url": ""
     }
   ],
   "skills": [
@@ -151,12 +176,31 @@
       ]
     },
     {
-      "name": "MySQL",
+      "name": "PostgreSQL",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos",
         "SQL",
         "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "NoSQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
         "Backend"
       ]
     },
@@ -211,16 +255,6 @@
       ]
     },
     {
-      "name": "Python",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "IA",
-        "API REST"
-      ]
-    },
-    {
       "name": "Java",
       "level": "Avanzado",
       "keywords": [
@@ -231,13 +265,23 @@
       ]
     },
     {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "IA",
+        "API REST"
+      ]
+    },
+    {
       "name": "Express",
       "level": "Avanzado",
       "keywords": [
+        "Desarrollo Web",
         "Backend",
         "Node.js",
-        "API REST",
-        "Servidor"
+        "API REST"
       ]
     },
     {
@@ -251,24 +295,6 @@
       ]
     },
     {
-      "name": "PostgreSQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Backend"
-      ]
-    },
-    {
-      "name": "SQLite",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Backend"
-      ]
-    },
-    {
       "name": "Docker",
       "level": "Avanzado",
       "keywords": [
@@ -276,6 +302,41 @@
         "Contenedores",
         "Docker Compose",
         "Despliegue"
+      ]
+    },
+    {
+      "name": "AWS S3",
+      "level": "Intermedio",
+      "keywords": [
+        "Cloud",
+        "Almacenamiento",
+        "Despliegue"
+      ]
+    },
+    {
+      "name": "Vercel",
+      "level": "Avanzado",
+      "keywords": [
+        "Cloud",
+        "Despliegue",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Supabase",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "Backend",
+        "Cloud"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermedio",
+      "keywords": [
+        "Sistemas Operativos",
+        "DevOps"
       ]
     },
     {
@@ -296,7 +357,7 @@
     },
     {
       "language": "English",
-      "fluency": "intermediate"
+      "fluency": "Intermedio-alto (B1 EF SET)"
     }
   ],
   "projects": [
