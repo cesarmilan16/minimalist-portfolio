@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   astro-cv:
     # El contexto (context: .) es la carpeta actual, donde está este archivo.
