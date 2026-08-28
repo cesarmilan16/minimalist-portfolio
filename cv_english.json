@@ -409,26 +409,26 @@
     },
     {
       "name": "Full-Stack Blog (Angular & Spring Boot)",
-      "isActive": true,
+      "isActive": false,
       "description": "Modern blog platform with full CRUD operations (Create, Read, Update, Delete) implemented with containerized monolithic architecture.",
       "highlights": [
         "Spring Boot API (Java) & Angular",
         "Docker Compose Orchestration",
         "MySQL Database"
       ],
-      "url": "https://blog-helloworld.cesarmilandev.com/",
+      "url": "https://github.com/cesarmilan16/blog-angular-spring",
       "github": "https://github.com/cesarmilan16/blog-angular-spring"
     },
     {
       "name": "To-Do List — Spring Boot MVC",
-      "isActive": true,
+      "isActive": false,
       "description": "Web application for task management built with Java, Spring Boot, Thymeleaf, and MySQL.",
       "highlights": [
         "MVC architecture with JPA/Hibernate",
         "User authentication system",
         "Docker deployment"
       ],
-      "url": "https://todolist-spring-mvc.cesarmilandev.com/",
+      "url": "https://github.com/cesarmilan16/todolist-spring-mvc",
       "github": "https://github.com/cesarmilan16/todolist-spring-mvc"
     }
   ]
